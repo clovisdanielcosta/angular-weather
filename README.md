@@ -1,7 +1,3 @@
-<p align="center">
-  <img alt="Ainda em desenvolvimento" src="././src/assets/images/under-development.png" width="70%">
-</p>
-
 <h1 align="center">
 :small_red_triangle_down: Consultation Weather Forecast by API in Angular 8
 </h1>
@@ -25,20 +21,16 @@ The purpose of this project is created a Consultation Weather Forecast App with 
 </p>
 
 <p align="center">
-  <a href="#cloud-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-learning">Learning</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-sharing">Sharing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#small_orange_diamond-customizing">Customizing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-license">License</a>
 </p>
 
 <p align="center">
-  <img alt="Gif animado do projeto" src="./src/assets/images/movies-manager.gif" width="100%">
+  <img alt="Gif animado do projeto" src="./angular-weather.gif" width="75%">
 </p>
-
-## :cloud: Deploy
 
 ## :rocket: Technologies
   To build this project the follow technologies were used:
@@ -48,6 +40,9 @@ The purpose of this project is created a Consultation Weather Forecast App with 
   - [TypeScript](https://www.typescriptlang.org/)
   - [Angular 8](https://angular.io/)
   - [Bootstrap](https://getbootstrap.com/)
+  - [Material Design](https://material.angular.io/)
+  - [Ngrx](https://ngrx.io/)
+  - [Open Weather API](https://openweathermap.org/api)
 
 ## :computer: Installation
 
@@ -72,14 +67,15 @@ The purpose of this project is created a Consultation Weather Forecast App with 
 
 ## :books: Learning
 
+  - Excellent explanation on how to manage the state of the application.
+  - Use of reducer to update the store, which is nothing more than a huge Json to keep the last state of the application.
+  - The difference between reducers and effects is that they will also react to an action but are executed asynchronously because they are based on observables.
 
 ## :small_orange_diamond: Sharing
 
-## :small_orange_diamond: Customizing
+  - I concluded that it will take many more hours of study to upload the concept of Angular to my 'core'. Then, don't worry if you are a little or very lost in this course. Keep digging and you will obtain success.
 
 ## :small_orange_diamond: License
 
 This project is under MIT license. Open file [LICENSE](LICENSE.md) to details. 
 The images in this project were made by repo's owner or taken from another repo in the web with the right authorization of use.
-
-## :small_orange_diamond: Thanks
